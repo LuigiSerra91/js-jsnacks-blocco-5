@@ -5,7 +5,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 
 const incrementNumbers = numbers.map(numbers => numbers + 1)
 
-console.log(incrementNumbers);
+console.log([incrementNumbers]);
 
 
 let numbersTwo = []
@@ -17,4 +17,4 @@ for (let i = 0; i < numbers.length; i++) {
      
 }
 
-console.log(numbersTwo);
+console.log([numbersTwo]);
