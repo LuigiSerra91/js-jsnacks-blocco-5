@@ -10,4 +10,4 @@ const newNums = nums.filter(numb => {
     }
     return false 
 })
-console.log([newNums]);
+console.log(newNums);
