@@ -10,4 +10,4 @@ const posts = [
 
 const newPost = posts.map(posts => posts.author);
 
-console.log([newPost]);
+console.log(newPost);
