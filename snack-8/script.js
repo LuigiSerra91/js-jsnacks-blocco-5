@@ -23,7 +23,7 @@ const students = [
 // Risultato: '3C'
 
 const newStudents = students.find((student)=>{
-  return student.class === '3C'
+  return student.name === 'Marco Lanci'
 })
 
 console.log(newStudents.class);
